@@ -1,0 +1,676 @@
+
+
+html, body {
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+}
+
+.barr-blue {
+    width: 100%;
+    height: 40px;
+    background: #000000; 
+    color: #ffffff;
+}
+
+.box-p {
+    margin-left: 150px;
+}
+
+.barr-blue p  {
+   color: #ffffff;
+   font-size: 13px;
+   display: inline-block;
+   margin-left: 10px;
+}
+
+.barr-blue p:hover {
+    color: #00ffffe7;
+    cursor: pointer;
+}
+
+.icon {
+    margin: 2px 0 2px 20px;
+}
+
+ul {
+    margin-left: 220px;
+    width: 750px;
+    color: #ffffff;
+}
+
+ul li a {
+     text-decoration: none;
+     color: #ffffff;
+}
+
+li {
+    width: max-content;
+    display:inline-block;
+    list-style: none;
+    margin: 7px 15px;
+    text-align: center;
+    padding: 8px 8px;
+    font-size: 20px;
+    font-weight: 800; 
+    border-radius: 4px;
+}
+
+ul li a:hover {
+    background-color:  #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 7px 1px 6px #000000;
+    color: #410505;
+}
+
+nav {
+    width: 100%;
+    height: 90px;
+    display: flex; 
+    background: #410505;
+}
+
+div.box-logo {
+    width: 80px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+.Logo{
+    width: 70px;
+    height: 70px;
+    margin: 0 5px;
+}
+
+/* section two styles*/ /* section two styles*/ /* section two styles*/
+
+.section-two {
+    width: 100%;
+    height: 580px;
+    color: #000000;
+    background: linear-gradient(#05070c4d, #05070c4d), url(./img/WhatsApp\ Image\ 2024-02-26\ at\ 8.45.55\ PM.jpeg) no-repeat;
+    background-size: cover;
+    background-position: 0 -380px;
+    object-fit: cover;
+    border: 1px solid #000;
+}
+
+.section-two .box-title {
+    margin: 150px 0 auto 40px;
+   
+}
+
+.box-title h1 {
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: "Lobster", "borel"; 
+}
+
+.container-h1 {
+    width: max-content;
+    height: max-content;
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+.container-h2 {
+    width: max-content;
+    height: 28px;
+    background: #ffffff;
+    border-radius: 4px;
+    margin-bottom: 70px;
+}
+
+.box-title h2 {
+    font-weight: 700;
+} 
+
+.box-button {
+    margin-left: 50px;    
+}
+
+.box-button .botton-inscribete {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #410505;
+    border-radius: 5px;
+    box-shadow: 4px 3px 3px  black;
+    border: 1px solid transparent;
+}
+
+.box-button .botton-inscribete:hover {
+    color: #000000;
+    background: linear-gradient(160deg,  #2af5ff 40%, #21b5f0 80%);
+}
+
+/* section tree styles*/ /* section tree styles*/ /* section tree styles*/
+
+.section-tree {
+    width: 100%;
+    height: 580px;
+    background: #ecebeb;
+}
+
+article {
+    width: 590px;
+    height: 500px;
+    margin: 30px auto auto 70px;
+    float: left;
+    
+}
+
+article h2 {
+    font-size: 42px;
+    color: #410505;
+    text-decoration: #05070ce6 underline;
+}
+
+article p.parr {
+    color:  #555252ef;
+    font-size: 19px;
+    line-height: 22px;
+}
+
+aside .imagen {
+    width: 700px;
+    height: 360px;
+    float: left;
+    background: url(.//img/estudiantes-bachillerato.jpg) no-repeat;
+    background-size: contain;
+    margin: 70px auto auto 20px;
+    border-radius: 40px;
+}
+
+/* section franja styles*/ /* section franja styles*/ /* section franja styles*/
+
+.franja {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    border: #410505 1px solid;
+    background: #410505;
+}
+
+.franja .icon {
+    margin: 0 60px;
+}
+
+.icon p {
+    text-align: center;
+    color: #c3c6d1;
+    font-size: 20px;
+    margin: 10px 0 0;
+}
+
+.icon h3 {
+    width: max-content;
+    margin: 30px auto 0 auto;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.franja .icon i {
+    color: #c3c6d1;
+    font-size: 42px;
+    margin: 40px 70px auto 70px;
+}
+
+.franja .years {
+    width: max-content;
+    height: max-content;
+    margin: auto 70px auto 70px;
+    color: #ffffff;
+    font-size: 42px;
+}
+
+/* section four styles*/ /* section four styles*/ /* section four styles*/
+
+.section-four {
+    width: 100%;
+    height: 720px;
+}
+
+h2.gale {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: #05070ce6;
+    text-decoration: #410505 underline;
+}
+
+.galeria {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 50px;
+}
+
+.galeria img {
+    width: 340px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.galeria .box h3 {
+    color: #410505 ;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: 4px #05070ce6 underline;
+}
+
+.box-button2 {
+    height: 60px;
+    margin: 100px;
+}
+
+.box-button2 input {
+    padding: 12px;
+    margin-left: 470px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #410505;
+    border-radius: 5px;
+    box-shadow: 4px 3px 3px  black;
+    border: 1px solid transparent;
+}
+
+.box-button2 .botton-inscribete:hover {
+    color: #000000;
+    background: linear-gradient(180deg, #2af5ff 30%, #28c2ff 100%);
+}
+
+
+
+/* section five styles*/ /* section five styles*/ /* section five styles*/
+
+.section-ponte-en-contacto {
+    width: 100%;
+    height: 520px;
+    background-image: url(.//img/hello@rallygreatsite.com.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.box-left {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.cajon {
+    width: 600px;
+    height: 300px;
+    margin: 120px auto;
+    background: #000000;
+    border: 1px solid black;
+    border-radius: 48px;
+}
+
+.caja-h3 {
+    width: 500px;
+    height: 40px;
+    margin: 90px auto 1px;
+    font-size: 24px;
+}
+
+.caja-h3 h3 {
+    width: 320px;
+    margin: 3px 7px 0;
+    color: #ffffff;
+
+}
+
+.caja-parr {
+    width: 500px;
+    height: 100px;
+    margin: 1px auto 5px;
+    font-size: 19px;
+}
+
+.caja-parr p {
+    padding: 3px;
+    margin-top: 0;
+    color: #ffffff;
+    line-height: 24px;
+}
+
+.box-right {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.caja-label-input {
+    width: 300px;
+    height: 90px;
+    margin: 160px 6px 2px 30px;
+    color: #ffffff;
+    float: left;
+}
+
+
+.cajaLabel {
+    width: 250px;
+    height: 22px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.caja-label-input-2 {
+    width: 300px;
+    height: 90px;
+    margin: 160px 70px 2px 5px;
+    color: #ffffff;
+    float: right;
+}
+
+#name, #email {
+    width: 250px;
+    height: 30px;
+    font-size: medium;
+    margin-left: 10px;
+    border: 1px solid #410505;
+    border-radius: 4px;
+}
+
+.caja-label-textarea {
+    width: 620px;
+    height: 240px;
+    margin: 2px 30px 20px;
+    float: left;
+}
+
+.caja-textArea {
+    width: 535px;
+    height: 22px;
+    margin: 10px 10px 1px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#textarea {
+    font-size: larger;
+    margin: 5px 10px;
+    border: 1px solid #410505;
+    border-radius: 8px;
+}
+
+#boton-3 {
+    width: 120px;
+    height: 35px;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    margin-inline-start: 460px;
+    background: #410505;
+    color: #ffffff;
+    box-shadow: 5px 3px 5px #000000;
+}
+
+#boton-3:hover {
+    color: #000000;
+    font-size: large;
+    background: linear-gradient(180deg, #ffd60a 30%, #ffc300 100%);
+    border: none;
+}
+
+/* section six styles*/ /* section ixn styles*/ /* section six styles*//* section six styles*/ 
+
+.section-six {
+    width: 100%;
+    background: #ecebeb;
+}
+
+#kiko-slider {
+    font-family: sans-serif;
+    margin: auto;
+    
+    background-color: white;
+    max-width: 900px;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#kiko-slider> ul, .slide_item {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#kiko-slider > ul > li > .h3_slider_1, .h3_slider_2, .h3_slider_3 {
+    margin-top: 60px;
+}
+
+#kiko-slider>ul.slider {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    height: 300px;
+}
+
+#kiko-slider>ul.slider h1 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%, -50%);
+}
+
+#kiko-slider>ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background: #fff;
+}
+
+#kiko-slider>ul.slider li img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#kiko-slider>ul.slider li:first-child {
+    opacity: 1;
+    /*Mostramos el primer <li>*/
+}
+
+#kiko-slider>ul.slider li:target {
+    opacity: 1;
+    /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+#kiko-slider>.menu {
+    text-align: center;
+    margin: 20px;
+}
+
+#kiko-slider>.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+#kiko-slider>.menu li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #000000;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+
+/* section seven styles*/ /* section seven styles*/ /* section seven styles*//* section seven styles*/ 
+
+.section-seven {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(.//img/wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background: #ecebeb;
+}
+
+.box-footer {
+    width: 300px;
+    height: 320px;
+    margin: 40px;
+}
+
+.box-footer .ilustracion {
+    width: 190px;
+    height: 190px;
+    position: relative;
+    left: -50px;
+    top: -20px;
+    border-radius: 0 50px 0 50px;
+}
+
+.box-footer .ilustracion-2 {
+    width: 190px;
+    height: 190px;
+    position: relative;
+    left: 140px;
+    bottom: 42px;
+    border-radius: 0 50px 0 50px;
+} 
+
+.box-footer .foot {
+    width: 260px;
+    margin: 15px auto ;
+    color: #555252ef;
+}
+
+.box-footer .foot:hover {
+    cursor: pointer;
+}
+
+.box-footer .foot:hover {
+    color: #000000;
+}
+
+.copy-right {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: #ffffff;
+    font-size: large;
+    border: 1px solid black;
+    background: #000000;
+}
+
+.copy-right p{
+    width: 600px;
+    margin: 8px auto;
+}
+
+.copy-right p:hover {
+    color: #00ffffe7;
+    cursor: pointer;
+}
+
+.img-svg {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.icon-facebook {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    float: left;
+
+}
+
+.icon-whatsapp {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    float: left;
+    color: #169464;
+}
+
+.foot-img {
+    width: 60px;
+    height: 60px;
+    margin: 10px 20px;
+}
+
+.foot-img:hover {
+    width: 62px;
+    height: 62px;
+    margin-left: 22px;
+}
+
+.fa-brands {
+    margin: 7px;
+    font-size: 25px;
+}
+
+.fa-brands:hover {
+    font-size: 27px;
+    opacity: 0.6;
+}
+
+.fa-square-whatsapp {
+    font-size: 28px;
+    color: #1ebe63;
+    margin-top: 6px;
+}
+
+.fa-square-whatsapp:hover {
+    font-size: 30px;
+    opacity: 0.9;
+}
+
+.box-footer .foot-2 {
+    width: 200px;
+    font-size: 17px;
+    margin: 10px auto;
+    
+}
+
+.box-footer .foot-2:hover {
+    color: #000000;
+}
+
+.box-footer .enlaces-rapidos {
+    width: 200px;
+    margin: 20px auto 35px;
+
+}
+
+hr {
+    width: 250px;
+    margin-inline-start: 45px;
+    margin-bottom: 10px;
+}
+
+.box-footer > a {
+    color: #555252ef;
+    text-decoration: none;
+}
